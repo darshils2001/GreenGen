@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+.App {
+  background-image: url(GreenBackground.jpg);
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
