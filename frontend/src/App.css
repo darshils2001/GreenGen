@@ -2,8 +2,17 @@
   text-align: center;
 }
 
+.test {
+  font-size: 10px;
+}
+
+.title {
+  color: green;
+  font-size: 90px;
+}
+
 .App {
-  background-image: url(GreenBackground.jpg);
+  background-color: #ebffe5;
 }
 
 .App-logo {
