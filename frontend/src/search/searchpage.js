@@ -32,13 +32,13 @@ const SearchPage = (props) => {
   return (
     <>
       <h1 className="title">GreenGen</h1>
+      <span>      </span>
+      <Switch rounded={true} isToggled={isToggled} onToggle={() => setIsToggled(!isToggled)}/>
+      <span>      </span>
       <SearchBar 
        input={input} 
        onChange={updateInput}
       />
-      <span>      </span>
-      <Switch rounded={true} isToggled={isToggled} onToggle={() => setIsToggled(!isToggled)}/>
-      <span>      </span>
       <CountryList countryList={countryList}/>
     </>
    );
