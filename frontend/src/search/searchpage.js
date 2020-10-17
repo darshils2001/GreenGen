@@ -36,9 +36,9 @@ const SearchPage = (props) => {
        input={input} 
        onChange={updateInput}
       />
-      <span>   Product name   </span>
+      <span>      </span>
       <Switch rounded={true} isToggled={isToggled} onToggle={() => setIsToggled(!isToggled)}/>
-      <span>   Product link   </span>
+      <span>      </span>
       <CountryList countryList={countryList}/>
     </>
    );
