@@ -6,7 +6,7 @@ const CountryList = ({countryList=[]}) => {
     { countryList.map((data,index) => {
         if (data) {
           return (
-            <div key={data.name}>
+            <div className="test" key={data.name}>
               <h1>{data.name}</h1>
 	    </div>	
     	   )	

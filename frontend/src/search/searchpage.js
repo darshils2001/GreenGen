@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import SearchBar from './searchbar';
 import CountryList from './list.js';
+import Switch from '../components/switch.js';
 
 const SearchPage = (props) => {
   const [input, setInput] = useState('');
@@ -24,10 +25,16 @@ const SearchPage = (props) => {
   }
 
   useEffect( () => {fetchData()},[]);
-	
+  
+  const [isToggled, setIsToggled] = useState(false);
+
+
   return (
     <>
-      <h1>Country List</h1>
+      <h1 className="title">GreenGen</h1>
+      <span>      </span>
+      <Switch rounded={true} isToggled={isToggled} onToggle={() => setIsToggled(!isToggled)}/>
+      <span>      </span>
       <SearchBar 
        input={input} 
        onChange={updateInput}
