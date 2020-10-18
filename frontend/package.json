@@ -9,6 +9,7 @@
     "classnames": "^2.2.6",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
+    "react-native": "^0.63.3",
     "react-scripts": "3.4.3",
     "react-toggle": "^4.1.1",
     "react-toggle-button": "^2.2.0"

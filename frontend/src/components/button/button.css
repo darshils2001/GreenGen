@@ -1,0 +1,15 @@
+.btn{
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  padding: 15px 30px;
+  font-size: 20px;
+  background-color:#86cd99;
+  color: white;
+  font-style: bold;
+  border: none;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+}
