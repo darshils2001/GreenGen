@@ -6,4 +6,4 @@ The GreenGen extension automatically provides eco-friendly alternatives to produ
 This web application uses technologies such as **ReactJS** and **nodeJS** on the frontend and **MongoDB**, **Google Cloud Vision API**, **Google Cloud Server**, and the **MERN** stack on the backend.
 
 This [article](https://www.nature.org/en-us/get-involved/how-to-help/carbon-footprint-calculator/) calculates the carbon footprint and acts to encourage users to switch to sustainable shopping.
-![sdf](https://png.pngtree.com/png-clipart/20190516/original/pngtree-human-character-with-green-tree-logo.-png-image_3732560.jpg)
+![a tree](./frontend/src/search/logo.png)
