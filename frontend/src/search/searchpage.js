@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import SearchBar from './searchbar';
 import CountryList from './list.js';
-import Switch from '../components/switch.js';
+import Switch from '../components/switch/switch.js';
+import Button from '../components/button/button.js';
 
 const SearchPage = (props) => {
   const [input, setInput] = useState('');
@@ -39,6 +40,8 @@ const SearchPage = (props) => {
        input={input} 
        onChange={updateInput}
       />
+      <span>     </span>
+      <Button onClick={() => alert("you clicked on me!")}>Search</Button>
       <CountryList countryList={countryList}/>
     </>
    );
