@@ -37,14 +37,12 @@ const SearchPage = (props) => {
       <h1 className="title">GreenGen</h1>
       <img src={logo} alt="Logo" width="200"/>
       <p> Input a product name to find greener alternatives! </p>
-      <p id="note"> Toggle for link searching.</p>
+      <p id="note">Toggle for link searching.</p>
       <Switch rounded={true} isToggled={isToggled} onToggle={() => setIsToggled(!isToggled)}/>
-      <span>     </span>
       <SearchBar 
        input={input} 
-       onChange={updateInput}
-      />
-      <Button onClick={() =>alert("this is such an annoying button")}>Search</Button>
+       onChange={updateInput}/>
+      <Button onClick={() =>alert("This button should search!")}>Search</Button>
       <CountryList countryList={countryList}/>
       <h1 className="bumper"> BUMPER </h1>
       <h1 className="bumper"> BUMPER </h1>
