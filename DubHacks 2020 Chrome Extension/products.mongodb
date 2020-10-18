@@ -1,0 +1,2 @@
+use('products');
+db.find({$text: { $search: "carpet"}})
