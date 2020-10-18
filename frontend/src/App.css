@@ -11,6 +11,15 @@
   font-size: 90px;
 }
 
+p {
+  font-size: 20px;
+}
+
+#note {
+  font-size: 15px;
+  font-style: italic;
+}
+
 .App {
   background-color: #ebffe5;
 }
@@ -34,11 +43,11 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #ebffe5;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #ebffe5;
 }
 
 @keyframes App-logo-spin {

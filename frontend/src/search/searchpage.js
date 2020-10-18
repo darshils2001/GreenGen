@@ -3,6 +3,7 @@ import SearchBar from './searchbar';
 import CountryList from './list.js';
 import Switch from '../components/switch/switch.js';
 import Button from '../components/button/button.js';
+import logo from '../search/logo.png';
 
 const SearchPage = (props) => {
   const [input, setInput] = useState('');
@@ -33,9 +34,12 @@ const SearchPage = (props) => {
   return (
     <>
       <h1 className="title">GreenGen</h1>
-      <span>      </span>
+      <img src={logo} alt="Logo" width="200"/>
+      <p> Input a product name to find greener alternatives! </p>
+      <p id="note"> Toggle ON for link searching.</p>
+      <span>     </span>
       <Switch rounded={true} isToggled={isToggled} onToggle={() => setIsToggled(!isToggled)}/>
-      <span>      </span>
+      <span>     </span>
       <SearchBar 
        input={input} 
        onChange={updateInput}
