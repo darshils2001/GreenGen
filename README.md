@@ -1,5 +1,5 @@
 # GreenGen - A platform to make transition to sustainable shopping smoother
-This is a project created for the DubHacks 2020 Hackathon. _GreenGen_ is used to reccomend eco-friendler products for online shoppers to reduce their carbon footprint. GreenGen is a web application as well as an extension for _Google Chrome_. 
+This is a project created during the DubHacks 2020 Hackathon. _GreenGen_ is used to recommend eco-friendlier products for online shoppers to reduce their carbon footprint. GreenGen is a live web application as well as an extension for _Google Chrome_, both with search capability. 
 
 The GreenGen extension automatically provides eco-friendly alternatives to products that online shoppers are looking at and provides the name, description, image and link of each alternative. The GreenGen web application allows users to search for greener products themselves through our extensive database.
 
