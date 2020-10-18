@@ -1,0 +1,3 @@
+use('DubHacks2020')
+
+mongoimport --db DubHacks2020 --collection products --type csv -- headerline -- ignoreBlanks -- file spot-carpet-product.csv
