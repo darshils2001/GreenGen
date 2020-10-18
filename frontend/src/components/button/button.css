@@ -8,6 +8,7 @@
   color: white;
   font-style: bold;
   border: none;
+  font-family: 'Oxygen', sans-serif;
 }
 
 .btn:hover {

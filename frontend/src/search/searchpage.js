@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import SearchBar from './searchbar';
-import CountryList from './list.js';
+// import CountryList from './list.js';
 import Switch from '../components/switch/switch.js';
 import Button from '../components/button/button.js';
 import logo from '../search/logo.png';
@@ -33,10 +33,11 @@ const SearchPage = (props) => {
 
   return (
     <>
+      <h1 className="bumper"> BUMPER </h1>
       <h1 className="title">GreenGen</h1>
       <img src={logo} alt="Logo" width="200"/>
       <p> Input a product name to find greener alternatives! </p>
-      <p id="note"> Toggle ON for link searching.</p>
+      <p id="note"> Toggle for link searching.</p>
       <span>     </span>
       <Switch rounded={true} isToggled={isToggled} onToggle={() => setIsToggled(!isToggled)}/>
       <span>     </span>
@@ -46,7 +47,9 @@ const SearchPage = (props) => {
       />
       <span>     </span>
       <Button onClick={() => alert("you clicked on me!")}>Search</Button>
-      <CountryList countryList={countryList}/>
+      {/* <CountryList countryList={countryList}/> */}
+      <h1 className="bumper"> BUMPER </h1>
+      <h1 className="bumper"> BUMPER </h1>
     </>
    );
 }

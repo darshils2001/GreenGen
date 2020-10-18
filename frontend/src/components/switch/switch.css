@@ -20,6 +20,7 @@
   bottom: 0;
   background-color: #ccc;
   transition: 0.4x;
+  transition: transform 0.3s ease;
 }
 
 .slider:before{
@@ -47,4 +48,8 @@ input:checked + .slider:before{
 
 .slider.rounded:before {
   border-radius: 50%;
+}
+
+.slider:hover {
+  transform: translateY(-3px);
 }
