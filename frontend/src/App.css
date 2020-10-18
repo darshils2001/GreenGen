@@ -1,9 +1,42 @@
 .App {
   text-align: center;
+  background-color: #ebffe5; 
 }
 
 .test {
   font-size: 10px;
+}
+
+#nav {
+  width: 100%;
+  float: left;
+  margin: 0 0 3em 0;
+  padding: 0;
+  list-style: none; }
+
+#nav li {
+  float: left; }
+
+#nav {
+  width: 100%;
+  float: left;
+  margin: 0 0 10em 0;
+  padding: 5px;
+  list-style: none;
+  background-color: #e7e7e7;
+}
+
+#nav li a {
+  display: block;
+  padding: 8px 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-family: 'Oxygen', 'sans-serif';
+}
+
+#nav li a:hover {
+  color: #6F7DCC;
 }
 
 .title {

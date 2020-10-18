@@ -4,6 +4,7 @@ import SearchBar from './searchbar';
 import Switch from '../components/switch/switch.js';
 import Button from '../components/button/button.js';
 import logo from '../search/logo.png';
+import NavBar from '../components/nav/nav.js';
 
 const SearchPage = (props) => {
   const [input, setInput] = useState('');
@@ -33,7 +34,7 @@ const SearchPage = (props) => {
 
   return (
     <>
-      <h1 className="bumper"> BUMPER </h1>
+      <NavBar/>
       <h1 className="title">GreenGen</h1>
       <img src={logo} alt="Logo" width="200"/>
       <p> Input a product name to find greener alternatives! </p>
