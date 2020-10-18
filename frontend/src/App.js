@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import { render } from "react-dom";
 import "./App.css";
 import SearchPage from "./search/searchpage.js";
 
