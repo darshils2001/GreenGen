@@ -14,10 +14,10 @@
 .slider {
   position: absolute;
   cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  top: -10px;
+  left: -7px;
+  right: 7px;
+  bottom: 10px;
   background-color: #ccc;
   transition: 0.4x;
   transition: transform 0.3s ease;

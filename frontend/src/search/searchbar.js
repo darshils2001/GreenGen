@@ -8,7 +8,7 @@ const BarStyling = {width:"50rem",height:"2.5rem",background:"#F2F1F9", border:"
      style={BarStyling}
      key="random1"
      value={keyword}
-     placeholder={"Enter a product!"}
+     placeholder={"Enter a product"}
      onChange={(e) => setKeyword(e.target.value)}
     />
   );
