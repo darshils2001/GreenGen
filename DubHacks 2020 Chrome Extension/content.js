@@ -3,5 +3,5 @@ chrome.runtime.onMessage.addListener(function (request) {
     //alert(queryString);
     const urlParams = new URLSearchParams(queryString);
     const product = urlParams.get('k');
-    alert(k);
+    alert(product);
 })
