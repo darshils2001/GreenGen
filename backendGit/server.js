@@ -29,11 +29,18 @@ MongoClient.connect(url, function(err, client) {
 
 
 app.get("/", (req, res) => {
-    let query = req.query.search;
+    let search = req.query.search;
     const db = mClient.db("DubHacks2020")
-    var greenProducts = db.collection('products').find({name: {$regex : /Carpet/i}}).toArray();
+    // console.log(db.collection('products'))
+    let query = { name: { $regex: search, $options: "i"} }
+    db.collection("products").find(query).toArray((err, result) => {
+        if (err) throw err;
+        console.log(result);
+        res.send({ products: result })
+      });
+    //.find({name: {$regex : /Carpet/i}}).toArray();
 
-    res.send({ products: greenProducts })
+    
 });
 
 app.listen(port, () => {
